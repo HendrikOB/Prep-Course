@@ -1,0 +1,43 @@
+================================
+Variables
+================================
+
+Las variables en JavaScript son nombres en el cual puedes almacenar datos y posteriormente ubicarlos usando el nombre asignado ejem: 
+
+var persona = 'El pepeeeeeeeeeeeee'
+
+Una Variable en Javascript contiene 3 partes; el tipo de variable que en este caso es "var", el nombre de la variable que en este caso es "persona" y el contenido de la variable que es 'El pepeeeeeeeeeeeee'.
+
+Existen 3 tipos de variables, 'var' la forma mas general de declarar una variable, luego esta 'let' que crea una variable con un alcance limitado al bloque en el cual fue creado y luego esta 'const' una variable que no se puede cambiar.
+
+================================
+String
+================================
+
+Son datos de tipo texto, siempre se definen entre comillas simples o dobles.
+
+================================
+Funciones
+================================
+
+Las funciones son instrucciones que realizan una tarea.
+
+Argumentos:
+
+Los argumentos dentro de las funciones son los valores que se tomaran en cuenta al momento de llamar a la funcion.
+
+Return:
+
+Es una declaracion el cual detiene la funcion y retorna lo especificado en la funcion.
+
+================================
+Declaraciones if
+================================
+
+Es un operador de control de flujo que verifica si algo es verdadero o falso.
+
+================================
+Valores Booleanos
+================================
+
+Son 2 valores verdadero(true) y falso(false), provenientes de la logica de boole.
