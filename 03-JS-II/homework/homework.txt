@@ -1,0 +1,82 @@
+==========================
+For
+==========================
+
+For es una palabra clave designada en javascript para llamar una declaracion de bucle, Consta de 3 partes
+
+for /*palabra clave*/ (condicional) { 
+    declaracion a ejecutar;
+    }
+
+la primera parte es la palabra clave for indicando al interprete de javascript que estas llamando al bucle for.
+
+La segunda parte son las condicionales la cual tiene el siguiente cuerpo
+
+for ( var i = 0; i < n ; i++)
+
+primero se declara una variable , luego se declara una expresion y se incrementa la variable
+
+La tercera parte consta de la declaracion(statement) a ejecutar que  tambien podria ser otra declaracion como en el siguiente caso:
+
+function incrementNum(n, m) {
+    for ( var i = 0; i < n ; i++) {
+        for(var j = 0; j< m; j++){
+            console.log(i, j)
+        }
+    }
+}
+
+==========================
+Operadores Logicos
+==========================
+
+&&
+
+Es un operador logico que representa al operador "y" ("AND" in English), se usa para comparar 2 variables y determinar si las DOS variables cumplen la condicion establecida.
+
+function logicOpeANDTest(i, j){
+    if(i < 10 && j >10 ) { */ entre los parentesis es donde se encuentra las condiciones /*
+        console.log('true');
+    } else {
+        console.log('false');
+    }
+}
+
+logicOpeANDTest(9,9) /*arrojara false porque J no cumple la condicion de ser mayor que 10*/
+logicOpeANDTest(9,11) /*arrojara true ambas variables son verdaderas*/
+
+||
+
+Es un operador logico que representa al operador "O" ("OR" in English), se usa para comparar 2 variables y determinar si UNA de las 2 variables cumple la condicional establecida;
+
+function logicOpeORTest(i, j){
+    if(i < 10 || j >10 ) {
+        console.log('true');
+    } else {
+        console.log('false');
+    }
+}
+
+logicOpeORTest(10,9); /* Retornara false "i" no es menos que 10 y j no es mayor que 10*/
+
+logicOpeORTest(9,9) /* Retornara true una de las variables cumple la condicion*/
+
+!
+
+Operador NO ("NOT" in English), este operador simboliza lo opuesto a un valor determinado.
+
+Ejem:
+
+function logicOpeNOTTest(i){
+    var j = Math.floor(Math.random() * 10); /* Arrojara un numero entre 0 y 9 */
+    if(i != j  ) { /* Aqui se aplica la condicional i NO es igual a j */
+        console.log('true');
+    } else {
+        console.log('false');
+    }
+    console.log(j);
+}
+
+logicOpeNOTTest(2);
+
+Esta funcion retornara true siempre y cuando el valor llamado en la funcion no coincida con el valor arrojado por la variable J. Este ejemplo es un ejemplo tomado del juego "guest the number".
