@@ -1,0 +1,7 @@
+==========================
+Arrays
+==========================
+
+Los Arreglos o matrices(Arrays) son objetos tipo lista que pueden contener cualquier tipo de datos en la misma matriz ejem:
+
+const array1 = [1,'gato', true, function(){console.log('Holis')},{ fruta : 'pera'}, { cantidadF: 4 } ];
