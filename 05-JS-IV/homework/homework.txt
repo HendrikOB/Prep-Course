@@ -1,0 +1,49 @@
+
+/*
+
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+    Objetos
+    Propiedades
+    Métodos
+    Bucle for…in
+    Notación de puntos vs notación de corchetes
+
+
+
+*/
+
+======================
+Objetos
+======================
+
+En javascript los objetos son entidades independientes con propiedades y tipos de propiedades, como en el caso de un celular tiene color, tamaño, modelo, marca, etc.
+
+======================
+Propiedades
+======================
+
+Las propiedades son las caracteristicas de un objeto que color tiene, que tamaño, cuanto mide, cuanto pesa, de donde proviene, entre otras cosas.
+
+======================
+Metodos
+======================
+
+Los metodos son funciones guardados en un objeto.
+
+======================
+Bucle for…in
+======================
+
+Es un tipo de bucle for utilizado principalmente para los objetos en javascript ya que los objetos no contienes indice numerico.
+
+======================
+Notación de puntos vs notación de corchetes
+======================
+
+Son 2 formas de acceder a los valores de un objeto.
+
+La notacion de puntos se puede acceder a los valores un objeto usando el nombre del objeto seguido de un punto y la palabra clave ejem: user.userName.
+
+con la notacion de corchetes debemos usar cadenas o numeros. se puede llamar cada clave envolvienda en comillas. Ejem: user['userName'].
